@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main(){
-	char *ptr;
-	char c='A';
-	ptr = &c;
+	int x = 5;
+	int *y= &x;
 
-	printf("%p",ptr);
+	printf("Nilai x:%d\nNilai y:%d\n",x,*y);
 }
