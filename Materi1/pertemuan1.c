@@ -18,7 +18,7 @@ int main(){
     printf("Address usia:%p\n",usia);
     printf("Address usia:%p\n",&usia);
 
-        
+    return 0;        
 }
 
 /**
